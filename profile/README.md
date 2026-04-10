@@ -1,12 +1,19 @@
-## Hi there 👋
+# RD-GST — Realtime Distributed Generalized Suffix Tree
 
-<!--
+Програмна система для побудови та пошуку в розподіленому узагальненому суфіксному дереві (УСД) з підтримкою інкрементального оновлення даних.
 
-**Here are some ideas to get you started:**
+Реалізація є частиною дисертаційного дослідження на тему **«Моделі та методи побудови розподілених узагальнених суфіксних дерев для швидкого доступу до даних»** за спеціальністю 121 — Інженерія програмного забезпечення.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+## Автор
+
+**Садовий Ян Станіславович** — аспірант, Державний університет «Житомирська політехніка»
+
+[ian.sadovy@gmail.com](mailto:ian.sadovy@gmail.com)
+
+## Компоненти
+
+| Компонент | Опис | Стек |
+|-----------|------|------|
+| **RD-GST Cluster** | Розподілений кластер — координатор, робочі вузли, виявлення сервісів | .NET, SignalR, Consul, Docker |
+| **RD-GST Admin Console** | Веб-інтерфейс для моніторингу кластера, керування індексами та пошуку | Next.js, TypeScript, Tailwind CSS |
+| **RD-GST Client** | Клієнтська бібліотека для інтеграції з аналітичними платформами | JavaScript |
